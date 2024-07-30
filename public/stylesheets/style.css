@@ -1,0 +1,14 @@
+.story::-webkit-scrollbar{
+  display: none;
+}
+
+a:focus {
+  outline: none !important;
+}
+
+
+body {
+  margin-left: 30em !important;
+  margin-right: 30em !important;
+  background-color: black;
+} 
