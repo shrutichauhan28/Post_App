@@ -2,6 +2,7 @@
   "name": "insta",
   "version": "0.0.0",
   "private": true,
+  "main":"host.js",
   "scripts": {
     "start": "node host.js"
   },
