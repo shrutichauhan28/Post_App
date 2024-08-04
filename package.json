@@ -4,7 +4,9 @@
   "private": true,
   "main":"host.js",
   "scripts": {
-    "start": "node host.js"
+    "start": "node ./bin/www",
+    "dev": "nodemom ./bin/www"
+
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -20,4 +22,10 @@
     "passport-local": "^1.0.0",
     "passport-local-mongoose": "^8.0.0"
   }
+
+  "description": "PostApp",
+  "main": "app.js",
+  "author": "",
+  "license": "ISC"
+
 }
