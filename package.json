@@ -2,7 +2,6 @@
   "name": "insta",
   "version": "0.0.0",
   "private": true,
-  "main":"host.js",
   "scripts": {
     "start": "node ./bin/www",
     "dev": "nodemom ./bin/www"
@@ -22,7 +21,7 @@
     "passport": "^0.7.0",
     "passport-local": "^1.0.0",
     "passport-local-mongoose": "^8.0.0"
-  }
+  },
 
   "description": "PostApp",
   "main": "app.js",
