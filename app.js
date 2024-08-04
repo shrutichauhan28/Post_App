@@ -17,8 +17,7 @@ app.set('view engine', 'ejs');
 
 app.use(expressSession({
   resave: false,
-  saveUninitialized: true,
-  store: MongoStore.create({mongoUrl: 'mongodb://localhost:27017/'}),
+  saveUninitialized: false,
   secret: "hey hey hehhdd"
 }));
 app.use(passport.initialize());
